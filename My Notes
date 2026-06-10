@@ -1,3 +1,4 @@
+//Push the file into gitHub using command
 git init 
 git status
 git add .
@@ -7,4 +8,12 @@ git remote add origin https://github.com/laxmiambekar1096/My_Drive.git
 git branch
 git branch -M main
 git push -u origin main
+
+//Pull the file into gitHub using command
 git pull origin main
+
+//Delete the file into gitHub using command
+git pull origin main
+git rm My_File.txt
+git commit -m "Delete My_File.txt"
+git push origin main
